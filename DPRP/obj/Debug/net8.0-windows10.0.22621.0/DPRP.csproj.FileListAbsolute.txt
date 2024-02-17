@@ -1,0 +1,15 @@
+D:\Dev\discord-plex-rich-presence\DPRP\bin\Debug\net8.0-windows10.0.22621.0\DPRP.exe
+D:\Dev\discord-plex-rich-presence\DPRP\bin\Debug\net8.0-windows10.0.22621.0\DPRP.deps.json
+D:\Dev\discord-plex-rich-presence\DPRP\bin\Debug\net8.0-windows10.0.22621.0\DPRP.runtimeconfig.json
+D:\Dev\discord-plex-rich-presence\DPRP\bin\Debug\net8.0-windows10.0.22621.0\DPRP.dll
+D:\Dev\discord-plex-rich-presence\DPRP\bin\Debug\net8.0-windows10.0.22621.0\Microsoft.Windows.SDK.NET.dll
+D:\Dev\discord-plex-rich-presence\DPRP\bin\Debug\net8.0-windows10.0.22621.0\WinRT.Runtime.dll
+D:\Dev\discord-plex-rich-presence\DPRP\obj\Debug\net8.0-windows10.0.22621.0\DPRP.GeneratedMSBuildEditorConfig.editorconfig
+D:\Dev\discord-plex-rich-presence\DPRP\obj\Debug\net8.0-windows10.0.22621.0\DPRP.AssemblyInfoInputs.cache
+D:\Dev\discord-plex-rich-presence\DPRP\obj\Debug\net8.0-windows10.0.22621.0\DPRP.AssemblyInfo.cs
+D:\Dev\discord-plex-rich-presence\DPRP\obj\Debug\net8.0-windows10.0.22621.0\DPRP.csproj.CoreCompileInputs.cache
+D:\Dev\discord-plex-rich-presence\DPRP\obj\Debug\net8.0-windows10.0.22621.0\DPRP.csproj.CopyComplete
+D:\Dev\discord-plex-rich-presence\DPRP\obj\Debug\net8.0-windows10.0.22621.0\DPRP.dll
+D:\Dev\discord-plex-rich-presence\DPRP\obj\Debug\net8.0-windows10.0.22621.0\refint\DPRP.dll
+D:\Dev\discord-plex-rich-presence\DPRP\obj\Debug\net8.0-windows10.0.22621.0\DPRP.genruntimeconfig.cache
+D:\Dev\discord-plex-rich-presence\DPRP\obj\Debug\net8.0-windows10.0.22621.0\ref\DPRP.dll
