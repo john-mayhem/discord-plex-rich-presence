@@ -61,23 +61,26 @@ namespace DiscordPlexRichPresence
         {
             ProcessStartInfo start = new()
             {
-                FileName = "python",
+                FileName = "python.exe", // Use the actual path to python.exe
                 Arguments = "main.py",
                 UseShellExecute = false,
                 RedirectStandardOutput = true,
                 RedirectStandardError = true,
-                WorkingDirectory = AppDomain.CurrentDomain.BaseDirectory
+                CreateNoWindow = true,
+                WorkingDirectory = @"C:\Program Files (x86)\discord-rich-presence-plex"
             };
-            _pythonProcess = Process.Start(start);
 
-            if (_pythonProcess != null)
-            {
-                _pythonProcess.BeginOutputReadLine();
-                _pythonProcess.OutputDataReceived += (sender, args) => Console.WriteLine(args.Data);
-                _pythonProcess.BeginErrorReadLine();
-                _pythonProcess.ErrorDataReceived += (sender, args) => Console.WriteLine(args.Data);
-            }
+            _pythonProcess = new Process { StartInfo = start };
+            _pythonProcess.Start();
+
+            _pythonProcess.BeginOutputReadLine();
+            _pythonProcess.BeginErrorReadLine();
+
+            _pythonProcess.OutputDataReceived += (sender, args) => Console.WriteLine(args.Data);
+            _pythonProcess.ErrorDataReceived += (sender, args) => Console.WriteLine(args.Data);
+
         }
+
 
 
     }
